@@ -10,5 +10,9 @@
 - `SETNX`：添加一个 String 类型的键值对，前提是这个 key 不存在，否则不执行
 - `SETEX`：添加一个 String 类型的键值对，并指定有效期
 ### Hash 类型的常见命令
-- HSET key field value：添加或修改 hash 类型的 key 的 field 值
-- HGET key field：获取一个 hash 类型的 key 的 field 的值
+- `HSET` key field value：添加或修改 hash 类型的 key 的 field 值
+- `HGET` key field：获取一个 hash 类型的 key 的 field 的值
+- `HMSET`：批量添加多个 hash 类型的 key 的 field 的值
+- `HMGET`：批量获取多个 hash 类型的 key 的 field 的值
+- `HGETALL`：获取一个 hash 类型的 key 中的所有 field 
+- `HKEYS`：
