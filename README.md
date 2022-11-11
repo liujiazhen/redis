@@ -19,3 +19,10 @@
 - `HVALS`：获取一个 hash 类型的 key 中的所有 value
 - `HINCRBY`：让一个 hash 类型 key 的字段自增并指定步长
 - `HSETNX`：添加一个 hash 类型的 key 的 field 值，前提是这个 field 不存在，否则不执行
+### List 类型的常见命令
+- `LPUSH key element ...`：向列表左侧插入一个或多个元素
+- `LPOP key`：移除并返回列表
+- ``：向
+- ``：向
+- ``：向
+- ``：向
