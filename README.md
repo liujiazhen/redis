@@ -11,7 +11,7 @@
 - `SETEX`：添加一个 String 类型的键值对，并指定有效期
 
 > 小提示：Redis的key允许有多个单词形成层级结构，多个单词用:隔开格式如：
-      项目名:业务名:类型:ID
+      项目名:业务名:类型:ID  JIAZHEN:REDIS:STRING:1024
 
 ### Hash 类型的常见命令
 - `HSET` key field value：添加或修改 hash 类型的 key 的 field 值
