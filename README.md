@@ -9,6 +9,9 @@
 - `INCRBYFLOAT`：让一个浮点类型的数字自增并指定步长
 - `SETNX`：添加一个 String 类型的键值对，前提是这个 key 不存在，否则不执行
 - `SETEX`：添加一个 String 类型的键值对，并指定有效期
+  ```小提示：Redis的key允许有多个单词形成层级结构，多个单词用:隔开格式如：
+      项目名:业务名:类型:ID
+  ```
 ### Hash 类型的常见命令
 - `HSET` key field value：添加或修改 hash 类型的 key 的 field 值
 - `HGET` key field：获取一个 hash 类型的 key 的 field 的值
